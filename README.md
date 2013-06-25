@@ -1,17 +1,8 @@
-## cors-proxy
+## npm-registry-cors-proxy
 
-A proxy that does CORS
+The [npm registry](https://npmjs.org/) dishes up extensive JSON info about its modules, but it doesn't support
+[CORS](http://enable-cors.org/). Enter the proxy!
 
-    npm install -g cors-proxy
-    cors-proxy
-
-Use it with a function like
-
-```js
-function proxy(url) {
-    return 'http://localhost:5000/?url=' + encodeURIComponent(url);
-}
-```
-
-And you can make [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
-requests to localhost:5000 from localhost on other ports.
+- http://npm-registry-cors-proxy.herouapp.com/request
+- http://npm-registry-cors-proxy.herouapp.com/minimatch
+- http://npm-registry-cors-proxy.herouapp.com/cors
