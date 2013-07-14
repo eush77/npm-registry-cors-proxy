@@ -1,17 +1,10 @@
 {
-  "name": "cors-proxy",
+  "name": "npm-registry-cors-proxy",
   "version": "0.0.1",
-  "description": "a proxy that does cors",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "bin": {
-      "cors-proxy": "cors-proxy.js"
-  },
-  "repository": "https://github.com/tmcw/cors-proxy.git",
-  "author": "Tom MacWright <tom@macwright.org>",
-  "license": "BSD",
+  "description": "get npm module info via cors",
+  "repository": "https://github.com/zeke/npm-registry-cors-proxy.git",
+  "author": "Zeke Sikelianos <zeke@sikelianos.com>",
+  "license": "MIT",
   "dependencies": {
     "express": "~3.2.6",
     "request": "~2.21.0",
