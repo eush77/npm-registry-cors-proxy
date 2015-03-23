@@ -1,1 +1,1 @@
-web: node cors-proxy.js
+web: npm start
