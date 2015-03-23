@@ -12,6 +12,10 @@ var app = express();
 app.get('/:module', cors(), function (req, res){
   var url = urlResolve('http://registry.npmjs.org/', req.params.module);
   request.get({ url: url, json: true }, function (err, resp, body) {
+    if (err) {
+      res.status(500).end('Internal server error');
+      return;
+    }
     res.jsonp(body);
   });
 });
