@@ -14,9 +14,10 @@ app.get('/:module', cors(), function (req, res){
   request.get({ url: url, json: true }, function (err, resp, body) {
     if (err) {
       res.status(500).end('Internal server error');
-      return;
     }
-    res.jsonp(body);
+    else {
+      res.status(resp.statusCode).jsonp(body);
+    }
   });
 });
 
