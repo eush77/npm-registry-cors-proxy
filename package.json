@@ -2,7 +2,8 @@
   "name": "npm-registry-cors-proxy",
   "version": "0.0.1",
   "description": "get npm module info via cors",
-  "repository": "https://github.com/zeke/npm-registry-cors-proxy.git",
+  "private": true,
+  "repository": "https://github.com/eush77/npm-registry-cors-proxy.git",
   "author": "Zeke Sikelianos <zeke@sikelianos.com>",
   "license": "MIT",
   "dependencies": {
