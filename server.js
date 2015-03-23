@@ -16,4 +16,7 @@ app.get('/:module', cors(), function (req, res){
   });
 });
 
-app.listen(process.env.PORT || 5000);
+(function start(port) {
+  app.listen(port);
+  console.log('Listening on ' + port);
+}(process.env.PORT || 5000));
