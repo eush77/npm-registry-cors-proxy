@@ -15,3 +15,7 @@ $(function() {
 ```
 
 Check out a [sample on codepen.io](http://cdpn.io/CJnHE).
+
+## License
+
+MIT
