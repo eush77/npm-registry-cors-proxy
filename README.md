@@ -1,11 +1,11 @@
 # npm-registry-cors-proxy
 
-The [npm registry](https://npmjs.org/) dishes up extensive JSON info about its modules, but it doesn't support [CORS](http://enable-cors.org/). Enter the proxy!
+The [npm registry](https://npmjs.org/) dishes up extensive JSON info about its modules, but it doesn't support
+[CORS](http://enable-cors.org/). Enter the proxy!
 
-## Running instances
-
-- http://npm-registry-cors-proxy.herokuapp.com/
-- http://npm-registry.herokuapp.com/
+- http://npm-registry-cors-proxy.herokuapp.com/request
+- http://npm-registry-cors-proxy.herokuapp.com/minimatch
+- http://npm-registry-cors-proxy.herokuapp.com/cors
 
 ## jQuery/Zepto Example Usage
 
